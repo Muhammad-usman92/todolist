@@ -8,7 +8,7 @@ if(mysqli_connect_error()){
 }
 
 if(isset($_POST['save'])){
-    $name=$_POST['name'];
+    $name=$_POST['name'];    
     $location=$_POST['location'];
     
 
